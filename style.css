@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #0a2a43;
+    height: 300vh;
+}
+
+#parallax{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+#parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#text{
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    font-size: 10em;
+}
+p{
+    color: #fff;
+    width: 900px;
+}
