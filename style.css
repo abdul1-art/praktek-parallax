@@ -35,3 +35,37 @@ p{
     color: #fff;
     width: 900px;
 }
+.container-about{
+  margin: 100px 5%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+}
+.wrap-img img{
+    width: 100%;
+}
+.wrap-img{
+    width: 100%;
+}
+.card-one{
+    width: 28%;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.text-card button{
+    padding: 12px 20px;
+    background-color: #4c6fff;
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
+.text-card{
+    padding: 12px;
+}
+.text-card p{
+    margin: 12px 0;
+    color: gray;
+    width: 300px;
+}
