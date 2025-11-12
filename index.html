@@ -7,6 +7,15 @@
     <title>Document</title>
   </head>
   <body>
+    <nav id="header">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#Project">Project</a></li>
+        <li><a href="#gallery">gallery</a></li>
+        <li><a href="#end">Contact Me</a></li>
+      </ul>
+    </nav>
     <section id="parallax">
       <img src="./assets/bg.jpg" id="bg" />
       <img src="./assets/moon.png" id="moon" />
@@ -14,7 +23,7 @@
       <img src="./assets/road.png" id="road" />
       <h2 id="text">Moon Light</h2>
     </section>
-    <section id="about">
+    <section id="Project">
       <div class="container-about">
         <div class="card-one">
           <div class="wrap-img">
@@ -59,11 +68,85 @@
         </div>
       </div>
     </section>
-    <footer>
-      <p>&copy; abdul</p>
+    <section id="container-body">
+      <div id="about">
+        <h2>About Moon Light</h2>
+        <div id="child">
+          <p>
+            Di bawah cahaya lembut bulan dan langit berbintang, Moon Light
+            mengajakmu untuk melangkah lebih jauh — menelusuri jalan yang sepi,
+            mencari ketenangan di antara gunung dan langit malam. Setiap
+            perjalanan bukan sekadar jarak yang ditempuh, tapi juga kisah yang
+            ditulis oleh waktu. Di sini, setiap cahaya rembulan adalah pengingat
+            bahwa bahkan dalam gelap sekalipun, selalu ada arah untuk pulang.
+          </p>
+          <p>
+            Moon Light bukan sekadar nama. Ia adalah simbol dari perjalanan
+            tanpa akhir — tentang pencarian, tentang keberanian untuk melangkah
+            meski malam begitu panjang. Dalam setiap jalanan yang sepi, dalam
+            setiap dingin yang menusuk, ada cahaya lembut yang menuntun kita
+            untuk terus maju. Karena hidup, seperti perjalanan di bawah sinar
+            bulan, selalu lebih indah ketika dinikmati dengan hati yang tenang.
+          </p>
+          <p>
+            Langit malam menyimpan ribuan cerita, dan Moon Light adalah tempat
+            di mana semua cerita itu hidup kembali. Di antara pegunungan yang
+            sunyi dan hamparan jalan yang tak berujung, kita belajar bahwa
+            keindahan sejati ada dalam ketenangan. Cahaya bulan bukan hanya
+            menerangi bumi, tapi juga hati — mengingatkan kita untuk berhenti
+            sejenak, menarik napas, dan menikmati setiap detik perjalanan.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="gallery">
+      <div class="container-gallery">
+        <div class="card-1">
+          <div class="moon-one">
+            <img src="./assets/download (4).jpg" />
+          </div>
+          <div class="des">
+            <h4>Moon Light</h4>
+            <p>Moon Light One</p>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="card-1">
+          <div class="moon-one">
+            <img src="./assets/Moon (1).jpg" />
+          </div>
+          <div class="des">
+            <h4>Moon Light</h4>
+            <p>Moon Light two</p>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <div class="card-1">
+          <div class="moon-one">
+            <img src="./assets/moon2.jpg" />
+          </div>
+          <div class="des">
+            <h4>Moon Light</h4>
+            <p>Moon Light tree</p>
+            <button>Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="end">
+      <div class="the-end">
+        <p>&copy;2025, Abdul Gaming function &checkmark;</p>
+        <div class="nav">
+          <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+          <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+          <a href="#">Gmail</a>
+        </div>
+      </div>
     </footer>
     <script src="scrip.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js">
+    <script
+      src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"
+    >
       window.onload = function () {
         confetti({
           particleCount : 500,
