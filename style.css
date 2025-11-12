@@ -4,16 +4,29 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #a99572;
+ 
   height: 300vh;
 }
-#header{
-  background-color: #11314A;
+#header {
+  background-color: #11314a;
 }
 ul {
   display: flex;
   justify-content: space-around;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.36);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(19.5px);
+-webkit-backdrop-filter: blur(19.5px);
+border: 1px solid rgba(255, 255, 255, 0.97);
+padding: 20px 0;
+margin-top: 5px;
 }
+ul li a {
+  color: white !important;
+}
+
 #parallax {
   display: flex;
   align-items: center;
@@ -37,8 +50,12 @@ ul {
   z-index: 1;
   font-size: 9em;
 }
+#Project{
+   background-color: #a99572;
+  padding: 100px 5%;
+
+}
 .container-about {
-  margin: 100px 5%;
   /* background-color: aqua; */
   display: flex;
   justify-content: space-between;
@@ -78,7 +95,9 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: rgb(90, 69, 13);
+  color: #fff;
+  background-color: #a99572;
+  padding: 100px 5%;
 }
 #about h2 {
   text-align: center;
@@ -126,10 +145,10 @@ ul {
   border-radius: 12px;
   border: none;
 }
-#end{
+#end {
   padding-bottom: 10px;
 }
-.the-end{
+.the-end {
   display: flex;
   flex-direction: column;
   align-items: center;
